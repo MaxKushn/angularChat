@@ -1,0 +1,74 @@
+.main-heading {
+	color: rgb(64, 75, 82);
+  letter-spacing: -1px;
+  word-spacing: -2px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+  font: 400 40px/40px "Fjalla One", sans-serif;
+}
+
+.section-heading {
+  color: #404b52;
+  font: 900 23px/22px 'Lato', sans-serif;
+  margin-bottom: 29px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.section-heading-3 {
+  color: #404b52;
+  text-transform: uppercase;
+  font: 400 27px/30px 'Fjalla One', sans-serif
+}
+
+.list-heading {
+  color: #404b52;
+  text-transform: uppercase;
+  font: 900 20px/24px 'Lato', sans-serif;
+  margin-bottom: 10px;
+}
+
+.description-font {
+  padding: 12px 15px 15px 25px;
+  color: #404b52;
+  background: #fff;
+  display: inline-block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.slide-heading {
+  color: rgb(64, 75, 82);
+  letter-spacing: -1px;
+  word-spacing: -2px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  text-align: center;
+  font: 400 40px/40px "Fjalla One", sans-serif;
+}
+
+.footer-heading {
+  letter-spacing: 0;
+  word-spacing: 0;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 900;
+  text-align: left;
+  color: #e8eef2;
+  text-transform: uppercase;
+}
+
+.blog-heading {
+  margin-bottom: 18px;
+  a {
+    color: #404b52;
+    text-transform: uppercase;
+    font: 400 30px/30px 'Fjalla One', sans-serif;
+    &:hover {
+      color: #dc6226;
+      text-decoration: none;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+  }
+}

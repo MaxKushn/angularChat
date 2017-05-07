@@ -1,0 +1,109 @@
+.web-btn a, button {
+  background: #dc6226;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
+  display: inline-block;
+  font: 400 16px/22px 'Lato', sans-serif;
+  outline: none;
+  letter-spacing: 1px;
+  padding: 9px 25px 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  &:hover {
+    background: #363636;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+}
+
+.slide-btn a {
+  text-align: left;
+  margin-bottom: 5px;
+  background: #dc6226;
+  color: #fff;
+  display: block;
+  font: 400 36px/40px 'Fjalla One', sans-serif;
+  outline: none;
+  padding: 31px 10px 25px 25px;
+  text-transform: uppercase;
+  &:hover {
+    background: #363636;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+}
+
+.footer-btn {
+  a {
+    text-decoration: none;
+    color: #e8eef2;
+    &:hover {
+      color: #dc6226;
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+    }
+  }
+  li {
+    list-style-type: none;
+    margin-left: -40px;
+    .active {
+      color: #dc6226;
+    }
+    a {
+      font-size: 14px;
+      text-decoration: none;
+      color: #e8eef2;
+      &:hover {
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        color: #dc6226;
+      }
+    }
+  }
+}
+
+.icons {
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      -webkit-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      color: #dc6226;
+    }
+  }
+}
+
+.form-submit-btn {
+  font: 400 16px/22px 'Fjalla One', sans-serif;
+  color: #e8eef2 !important;
+  background: #dc6226;
+  border: 1px solid #dc6226;
+  height: 41px;
+  font-style: normal;
+  padding: 10px 11px 11px 13px;
+  font-size: 20px;
+  line-height: 24px;
+  position: absolute;
+  &:hover {
+    background: #363636;
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.sign-in-btn {
+  background: #dc6226!important;
+  border: solid 1px #dc6226!important;
+  color: #fff!important;
+  &:hover {
+    background-color: shade(#dc6226,15%)!important;
+    border-color: shade(#dc6226,17%)!important;
+  }
+}

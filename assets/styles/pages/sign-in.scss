@@ -1,0 +1,43 @@
+$middle: 991px;
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media (max-width: $middle) { @content; }
+  }
+}
+
+.signin-form {
+  @include respond-to(handhelds) { padding: 0px!important;}
+}
+
+.sign-in-page {
+  background: url(http://static.livedemo00.template-help.com/drupal_52188/sites/all/themes/theme935/images/bg-1.png) center no-repeat;
+  padding: 100px 40px 70px;
+  small {
+    font-size: 85%;
+  }
+  .sign-in-btn:hover {
+    color: #fff!important;
+    background: #363636!important;
+    text-decoration: none!important;
+    transition: all 0.3s ease!important;
+    border-color: #363636!important;
+  }
+  .validate-err.ng-dirty.ng-invalid {
+    border-color: #D11C26!important;
+  }
+  .error-container .error {
+    color: #D11C26!important;
+    font: 400 18px/22px 'Lato', sans-serif;
+  }
+  .signin-form {
+    label {
+      font-size: 15px;
+    }
+  }
+  .login-btn, .forgot-btn {
+    font-size: 20px;
+    clear: both;
+    float: right;
+  }
+}

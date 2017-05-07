@@ -1,0 +1,22 @@
+html {
+  height: 100%;
+  body {
+    height: 100%;
+  }
+}
+
+.section-1 {
+	@include respond-to(handhelds) {padding: 20px 0 70px;}
+  background: #fff url(http://static.livedemo00.template-help.com/drupal_52188/sites/all/themes/theme935/images/bg-1.png) center no-repeat;
+  padding: 100px 0 70px;
+  background-size: cover;
+  height: 100%;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.center {
+	text-align: center;
+}

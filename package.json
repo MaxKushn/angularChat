@@ -1,0 +1,66 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Responsive HTML5 website template for web development/design agencies",
+  "main": "server.js",
+  "dependencies": {
+    "angular-ui-router": "^0.3.1",
+    "body-parser": "^1.15.1",
+    "bower": "^1.7.9",
+    "connect": "^3.4.1",
+    "connect-gzip-static": "^1.0.0",
+    "connect-route": "^0.1.5",
+    "gulp-sass": "^2.3.2",
+    "nodemailer": "^2.4.1",
+    "ui-router": "^1.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "angular-ui-router": "^0.3.1",
+    "browserify": "^13.0.1",
+    "critical": "^0.7.3",
+    "gulp": "gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-develop-server": "^0.5.2",
+    "gulp-filter": "^4.0.0",
+    "gulp-gzip": "^1.4.0",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-inline-source": "^2.1.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-order": "^1.1.1",
+    "gulp-remove-html-comments": "^1.0.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3",
+    "gulp-util": "^3.0.7",
+    "main-bower-files": "^2.13.1",
+    "ngrok": "^2.2.0",
+    "psi": "^2.0.4",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node node_modules/gulp/bin/gulp start",
+    "start": "node server.js",
+    "dev": "node node_modules/gulp/bin/gulp start",
+    "e2e": "protractor protractor.config.js",
+    "webdriver:start": "webdriver-manager start",
+    "unit": "karma start karma.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StreamCrease/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StreamCrease/website/issues"
+  },
+  "homepage": "https://github.com/StreamCrease/website#readme"
+}

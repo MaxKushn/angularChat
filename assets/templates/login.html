@@ -1,0 +1,26 @@
+<div class="section-1">
+	<div class="container">
+		<div class="jumbotron">
+			<div class="row">
+				<div class="col-sm-12">
+					<h2 class="main-heading">welcome to our chat!</h2>
+				</div>
+				<form name="LoginForm.login" class="col-sm-4 col-sm-offset-4 signin-form" novalidate ng-submit="vm.checkLogin()">
+					<div class="login-form">
+						<div class="form-group">
+							<label for="name">Please enter your Name</label>
+							<input full-name type="text" class="form-control validate-err" id="name" placeholder="Enter full Name" ng-model="vm.loginData.name" name="name" required>
+							<div class="error-container" ng-show="LoginForm.login.name.$dirty && LoginForm.login.name.$invalid" role="alert">
+									<small class="error" ng-show="LoginForm.login.name.$error.required">This field is required</small>
+									<small class="error" ng-show="LoginForm.login.name.$dirty &amp;&amp; LoginForm.login.name.$error">This field must be a valid Full Name</small>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 center">
+						<button id="logButton" type="submit" ng-disabled="LoginForm.login.$invalid" class="btn sign-in-btn btn-square login-btn">Login</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>

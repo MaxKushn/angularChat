@@ -1,0 +1,30 @@
+{
+  "name": "task",
+  "authors": [
+    "MaxKushnarov <max_mi_98@mail.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.6.3",
+    "angular-mocks": "^1.5.8",
+    "requirejs": "^2.3.1",
+    "bootstrap-sass": "^3.3.7",
+    "angular-ui-router": "^0.3.1",
+    "angular": "^1.5.8",
+    "moment": "^2.18.1",
+    "angular-moment": "^1.0.1",
+    "angular-simple-chat": "^1.0.11",
+    "angular-local-storage": "^0.5.2",
+    "ngstorage": "^0.3.11",
+  }
+}
